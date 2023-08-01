@@ -22,7 +22,7 @@ pip install argparse
 
 3. Execute o script `clickjacking.py` informando a URL da página que deseja testar:
 
-python clickjacking.py <URL_DA_PAGINA_ALVO>
+python clickJ.py <URL_DA_PAGINA_ALVO>
 
 Exemplo:
 
