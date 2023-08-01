@@ -20,13 +20,16 @@ Quando um usuário visita a página alvo, ele vê o conteúdo carregado no ifram
 
 pip install argparse
 
-3. Execute o script `clickjacking.py` informando a URL da página que deseja testar:
+3. Execute o script `clickJ.py` informando a URL da página que deseja testar:
 
 python clickJ.py <URL_DA_PAGINA_ALVO>
 
 Exemplo:
 
-python clickjacking.py https://www.example.com
+python clickJ.py http://testphp.vulnweb.com/
+
+![Exemplo](https://github.com/BrotherOfJhonny/clickj/blob/main/clickJ.png)
+
 
 
 4. A prova de conceito gerará dois arquivos: `clickJ-target.html` (página alvo) e `clickJ-attacker.html` (página atacante).
